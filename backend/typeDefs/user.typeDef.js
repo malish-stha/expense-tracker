@@ -15,8 +15,8 @@ type Query{
 }
 
 type Mutation{
-    signUp(input: signUpInput!): User
-    login(input: loginInput!): User
+    signUp(input: SignUpInput!): User
+    login(input: LoginInput!): User
     logout: LogoutResponse
 }
 
